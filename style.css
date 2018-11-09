@@ -1,3 +1,44 @@
 #items {
     float: left;
+    text-align: center;
+    margin-left: 45%;
+}
+
+.nav {
+    text-align: center;
+    
+}
+#adminNav
+{
+    text-align: center;
+}
+.pull-rignt {
+    margin-left: 90%;
+}
+.pizza-desc{
+    width: 200px;
+    word-wrap: break-word;
+    
+}
+
+.loginBox {
+    padding-top: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.lbl {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.input {
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+.signinBtn {
+    margin-top: 30px;
+    font-size: 20px;
 }

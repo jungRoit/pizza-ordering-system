@@ -8,13 +8,19 @@
     <link rel="stylesheet" href="style.css">
     <script src="app/models/pizza.js"></script>
     <script src="app/models/cart.js"></script>
+    <script src="app/models/user.js"></script>
     <script src="app/service/pizzaService.js"></script>
+    <script src="app/service/userService.js"></script>
 </head>
 <body>
-<div class="nav">
-        <button onclick="myOrder(2)">Order</button>
+    <div id="adminNav">
+
+    </div>
+<div class="nav" id="nav">
+        <h4 >Welcome to Pizza Ordering System</h4>
         <button onclick="viewAll()">Pizza</button>
         <button onclick="viewCart()">View My Cart</button>
+        <button onclick="loginPage()" class="pull-rignt">Login</button>
 </div>
 
 <div id="items"></div>
